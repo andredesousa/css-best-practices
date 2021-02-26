@@ -1,7 +1,7 @@
 # CSS Best Practices
 
 This is a guideline of best practices that we can apply to our front-end project.
-Some of these recommendations are applied for CSS pre-processors such as [Sass](https://sass-lang.com/), [Less](http://lesscss.org/) and [Stylus](https://stylus-lang.com/).
+Some of these tips are for CSS pre-processors such as [Sass](https://sass-lang.com/), [Less](http://lesscss.org/) and [Stylus](https://stylus-lang.com/).
 These tips are based on CSS documentation, books, articles and professional experience.
 
 ## Table of Contents
