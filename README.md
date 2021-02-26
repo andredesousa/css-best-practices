@@ -6,56 +6,56 @@ These tips are based on CSS documentation, books, articles and professional expe
 
 ## Table of Contents
 
-1. [Follow conventions](#)
-2. [Follow a CSS methodology](#)
-3. [Lint the styles](#)
-4. [Alphabetize CSS properties](#)
-5. [Cross-browser compatibility](#)
-6. [Prefer CSS over JavaScript](#)
-7. [Comment the CSS code](#)
-8. [Avoid undoing styles](#)
-9. [Avoid magic numbers](#)
-10. [Avoid qualified selectors](#)
-11. [Avoid hard-coded values](#)
-12. [Avoid brute forcing](#)
-13. [Avoid dangerous selectors](#)
-14. [Avoid extra selectors](#)
-15. [Avoid reactive !important](#)
-16. [Avoid IDs](#)
-17. [Avoid loose class names](#)
-18. [Avoid string concatenation for classes](#)
-19. [Avoid duplicated key selectors](#)
-20. [Avoid using inline styles](#)
-21. [Avoid classes in wrong components](#)
-22. [Avoid @mixin everywhere](#)
-23. [Avoid @extend everywhere](#)
-24. [Avoid shorthand syntax everywhere](#)
-25. [Avoid too many font files](#)
-26. [Use multiple classes](#)
-27. [Use nested declarations](#)
-28. [Use “Margin: 0 auto” to center layouts](#)
-29. [Use “Hex Code” instead of “Name Color”](#)
-30. [Use a CSS reset](#)
-31. [Use a CSS pre-processor](#)
-32. [Use CSS post-processor](#)
-33. [Use a CSS framework](#)
-34. [Use a design system](#)
-35. [Use relative units](#)
-36. [Use CSS variables](#)
-37. [Write descriptive media queries](#)
-38. [Understand Block vs Inline Elements](#)
-39. [Separate global vs local style](#)
-40. [Minimize expensive properties](#)
-41. [Style to be responsive or at least adaptive](#)
-42. [Let the content define the size](#)
-43. [Let the parent take care child position](#)
-44. [Keep HTML semantics](#)
-45. [Create the HTML first](#)
-46. [Combine elements with same styles](#)
-47. [Modularize the styles](#)
-48. [Lazy load stylesheets](#)
-49. [Remove unused CSS](#)
-50. [Minimize the CSS](#)
+1. [Follow conventions](#follow-conventions)
+2. [Follow a CSS methodology](#follow-a-CSS-methodology)
+3. [Lint the CSS files](#lint-the-css-files)
+4. [Alphabetize CSS properties](#alphabetize-css-properties)
+5. [Cross-browser compatibility](#cross-browser-compatibility)
+6. [Prefer CSS over JavaScript](#prefer-css-over-javascript)
+7. [Comment the CSS](#Comment-the-css)
+8. [Avoid undoing styles](#avoid-undoing-styles)
+9. [Avoid magic numbers](#avoid-magic-numbers)
+10. [Avoid qualified selectors](#avoid-qualified-selectors)
+11. [Avoid hard-coded values](#avoid-hard-coded-values])
+12. [Avoid brute forcing](#avoid-brute-forcing)
+13. [Avoid dangerous selectors](#avoid-dangerous-selectors)
+14. [Avoid extra selectors](#avoid-extra-selectors)
+15. [Avoid reactive !important](#avoid-reactive-important)
+16. [Avoid IDs](#avoid-ids)
+17. [Avoid loose class names](#avoid-loose-class-names)
+18. [Avoid string concatenation for classes](#avoid-string-concatenation-for-classes)
+19. [Avoid duplicated key selectors](#avoid-duplicated-key-selectors)
+20. [Avoid using inline styles](#avoid-using-inline-styles)
+21. [Avoid classes in wrong components](#avoid-classes-in-wrong-components)
+22. [Avoid @mixin everywhere](#avoid-mixin-everywhere)
+23. [Avoid @extend everywhere](#avoid-extend-everywhere)
+24. [Avoid shorthand syntax everywhere](#avoid-shorthand-syntax-everywhere)
+25. [Avoid too many font files](#avoid-too-many-font-files)
+26. [Use multiple classes](#use-multiple-classes)
+27. [Use nested declarations](#use-nested-declarations)
+28. [Use "Margin: 0 auto" to center layouts](#use-margin-auto-to-center-layouts)
+29. [Use Hex Code instead of Name Color](#use-hex-code-instead-of-name-color)
+30. [Use a CSS reset](#use-a-css-reset)
+31. [Use a CSS pre-processor](#use-a-css-pre-processor)
+32. [Use a CSS post-processor](#use-a-css-post-processor)
+33. [Use a CSS framework](#use-a-css-framework)
+34. [Use a design system](#use-a-design-system)
+35. [Use relative units](#use-relative-units)
+36. [Use CSS variables](#use-css-variables)
+37. [Write descriptive media queries](#write-descriptive-media-queries)
+38. [Understand Block vs Inline Elements](#understand-block-vs-inline-elements)
+39. [Separate global vs local style](#separate-global-vs-local-style)
+40. [Minimize expensive properties](#minimize-expensive-properties)
+41. [Style to be responsive or at least adaptive](#style-to-be-responsive-or-at-least-adaptive)
+42. [Let the content define the size](#let-the-content-define-the-size)
+43. [Let the parent take care child position](#let-the-parent-take-care-child-position)
+44. [Keep HTML semantics](#keep-html-semantics)
+45. [Create the HTML first](#create-the-html-first)
+46. [Combine elements with same styles](#combine-elements-with-same-styles)
+47. [Modularize the styles](#modularize-the-styles)
+48. [Lazy load stylesheets](#lazy-load-stylesheets)
+49. [Remove unused CSS](#remove-unused-css)
+50. [Minimize the CSS](#minimize-the-CSS)
 
 ## Follow conventions
 
@@ -74,7 +74,7 @@ There are plenty of methodologies out there aiming to reduce the CSS footprint, 
 [BEM](http://getbem.com/) (Block, Element, Modifier) was introduced in 2010 as a methodology organized around the idea of dividing the user interface into independent blocks.
 Other CSS methodologies are [ITCSS](https://itcss.io/), [OOCSS](http://oocss.org/), [SMACSS](http://smacss.com/), [SUITCSS](https://suitcss.github.io/) and [Atomic CSS](https://acss.io/).
 
-## Lint the styles
+## Lint the CSS files
 
 Linting works by ensuring that we follow the rules that we define for our style and make sure our styles are consistent, well structured, and follow CSS best practices.
 We can use [stylelint](https://stylelint.io/) in our CSS projects.
@@ -104,12 +104,12 @@ This can be disastrous.
 We are much more in control when using JavaScript, but we are also much more responsible.
 In general, our applications are faster using CSS instead of JavaScript.
 
-## Comment the CSS code
+## Comment the CSS
 
 One of the best practices that we can implement for CSS code is by putting a comment for each group of CSS code.
-Just like any other language, it’s a great idea to comment our code.
+Just like any other language, it's a great idea to comment our code.
 Comments are used in CSS to explain a block of code or to make temporary changes during development.
-The commented code doesn’t execute.
+The commented code doesn't execute.
 Regarding comments, we have documentation on [how to comment the CSS](https://www.freecodecamp.org/news/comments-in-css/).
 
 ## Avoid undoing styles
@@ -199,7 +199,7 @@ Brute forcing CSS is when we use hard-coded magic numbers and a variety of other
 
 This is terrible CSS.
 This type of CSS is indicative of either a poorly coded layout that requires this kind of manipulation, a lack of understanding of box-model and layout, or both.
-Well coded layouts should never need brute-forcing, and a solid understanding of box model, layout and looking at our computed styles more often should mean that we’d rarely end up in a situation like this.
+Well coded layouts should never need brute-forcing, and a solid understanding of box model, layout and looking at our computed styles more often should mean that we'd rarely end up in a situation like this.
 
 ## Avoid dangerous selectors
 
@@ -213,12 +213,12 @@ div {
 ```
 
 To give such specific styling to such a generic selector is dangerous.
-Our styles will leak out into areas they shouldn’t as soon as we start trying to use that element again.
-We’ll need to start undoing styles (adding more code to take styles away) in order to combat this.
+Our styles will leak out into areas they shouldn't as soon as we start trying to use that element again.
+We'll need to start undoing styles (adding more code to take styles away) in order to combat this.
 
 ## Avoid extra selectors
 
-It’s easy to unknowingly add extra selectors to our CSS that clutters the stylesheet.
+It's easy to unknowingly add extra selectors to our CSS that clutters the stylesheet.
 One common example of adding extra selectors is with lists.
 
 ```css
@@ -235,13 +235,13 @@ Adding extra selectors won't bring the end of the world, but they do keep our CS
 
 ## Avoid reactive !important
 
-`!important` is fine and it’s a, well, important tool.
+`!important` is fine and it's a, well, important tool.
 However, should only be used in certain circumstances.
 `!important` should only ever be used proactively, not reactively.
 For example, we will always want errors to be red, so this rule is totally fine.
-Where is bad is when it is used reactively, that is, it’s used to get someone out of a specificity problem and force things to work.
+Where is bad is when it is used reactively, that is, it's used to get someone out of a specificity problem and force things to work.
 Using reactively is just a way of circumventing the problems caused by ill-formed CSS.
-It doesn’t fix any problems, it only fixes the symptoms.
+It doesn't fix any problems, it only fixes the symptoms.
 
 ## Avoid IDs
 
@@ -275,7 +275,7 @@ The obvious benefit is that we must write our foo namespace only once is certain
 
 One less obvious downside, however, is the fact that the string `foo-bar` now no longer exists in our source code.
 Searching our codebase for `foo-bar` will return only results in HTML.
-It suddenly became a lot more difficult to locate the source of `.foo-bar’s` styles.
+It suddenly became a lot more difficult to locate the source of `.foo-bar's` styles.
 
 ## Avoid duplicated key selectors
 
@@ -307,7 +307,7 @@ If we need to style something differently because of its context, where should w
 In the file that styles the thing?
 Or in the file that controls that context?
 We should do our best to group our styles based on the subject (i.e. the key selector).
-For example, it’s much more convenient to have the context of all of our buttons in one place.
+For example, it's much more convenient to have the context of all of our buttons in one place.
 This makes it much easier to move all of the button styles onto a new project, but more importantly it eases cognitive overhead.
 You're familiar with the feeling of having ten files open in your text editor whilst just trying to change one small piece of styling.
 As a simple rule of thumb, ask yourself the question am I styling `x` or am I styling `y`?
@@ -315,20 +315,20 @@ If the answer is `_`, then your CSS should live in `_`; if the answer is `_`, it
 
 ## Avoid @mixin everywhere
 
-When we don’t have to use mixins, just don’t do it.
+When we don't have to use mixins, just don't do it.
 When we use mixins, they have to be well-structured and maintained in a rigorous way.
 Using mixins for no good reason is the best way to get lost when the project grows.
 They can cause side effects and become hard to update when they are used in many places.
 Mixins are here to avoid repeating yourself by keeping a Single Source of Truth.
-Also, we don’t have to use mixins to prefix CSS properties because we have plugins like [Autoprefixer](https://github.com/postcss/autoprefixer).
+Also, we don't have to use mixins to prefix CSS properties because we have plugins like [Autoprefixer](https://github.com/postcss/autoprefixer).
 
 ## Avoid @extend everywhere
 
-It’s not absolutely, always, definitely bad, but it usually is.
+It's not absolutely, always, definitely bad, but it usually is.
 The problems with `@extend` are manifold, but to summarize:
 
-- It’s actually worse for performance than mixins are;
-- It’s greedy. Sass’ `@extend` will `@extend` every instance of a class that it finds, giving us crazy-long selector chains;
+- It's actually worse for performance than mixins are;
+- It's greedy. Sass will `@extend` every instance of a class that it finds, giving us crazy-long selector chains;
 - It moves things around your codebase. Source order is vital in CSS, so moving selectors around your project should always be avoided;
 - It obscures the paper-trail. `@extend` hides a lot of complexity in our Sass.
 
@@ -338,7 +338,7 @@ Typically, we would view [shorthand syntax](https://csswizardry.com/2016/12/css-
 However, it comes with a rather troublesome side effect.
 It often unsets other properties that we never intended to modify.
 So, always consider the longhand.
-It might be more keystrokes, it might be more repetitive, it might be less DRY, but it’s more accurate.
+It might be more keystrokes, it might be more repetitive, it might be less DRY, but it's more accurate.
 Only write as much as we need and not a single bit more.
 
 ## Avoid too many font files
@@ -351,57 +351,57 @@ It is recommended to [optimize WebFont loading and rendering](https://web.dev/op
 
 ## Use multiple classes
 
-Sometimes it’s beneficial to add multiple classes to an element.
-Let’s say that we have a `<div>` “box” that we want to display a warning and we’ve already a `.warning` class in our CSS.
+Sometimes it's beneficial to add multiple classes to an element.
+Let's say that we have a `<div>` "box" that we want to display a warning and we've already a `.warning` class in our CSS.
 We can simply add an extra class in the declaration, like so:
 
 ```html
 <div class="box warning"></div>
 ```
 
-We can add as many classes as we’d like (space separated) to any declaration.
+We can add as many classes as we'd like (space separated) to any declaration.
 
 ## Use nested declarations
 
 Using CSS preprocessor not only adds some useful functions to our toolset, but also helps with code organization.
-The best example is styles’ declaration nesting.
-In Sass it’s possible to nest selector in other selectors, so that we can see what’s the relation between them.
-It’s powerful feature, so it can be overused pretty easily.
+The best example is styles' declaration nesting.
+In Sass it's possible to nest selector in other selectors, so that we can see what's the relation between them.
+It's powerful feature, so it can be overused pretty easily.
 It´s suggested not to go more than 3 levels deep.
 This rule applies both for selectors specificity and selectors nesting in CSS preprocessors.
-Going beyond that limit not only increases selector’s strength, but also can make reading our code more difficult.
+Going beyond that limit not only increases selector's strength, but also can make reading our code more difficult.
 
-## Use “Margin: 0 auto” to center layouts
+## Use "Margin: 0 auto" to center layouts
 
-Many beginners can’t figure out why we can’t simply use `float: center;` to achieve that centered effect on block-level elements.
-Unfortunately, we’ll need to use the `margin: 0 auto`; to center divs, paragraphs or other elements in our layout.
+Many beginners can't figure out why we can't simply use `float: center;` to achieve that centered effect on block-level elements.
+Unfortunately, we'll need to use the `margin: 0 auto`; to center divs, paragraphs or other elements in our layout.
 By declaring that both the left and the right margins of an element must be identical, they have no choice but to center the element within its containing element.
 
-## Use “Hex Code” instead of “Name Color”
+## Use Hex Code instead of Name Color
 
 It has been pointed out by experts and professionals that when using "hex code", they found that it is faster for 4-5 runs.
 Try a performance test run and check for yourself.
 So rather than using the "name color", go for "#hex code" instead.
 Besides that, it´s recommended to use naming conventions for our color variables.
-Instead of scratching our head about this one every time, we can use [Veli’s colorpedia](http://veli.ee/colorpedia/).
-This way we’ll get to give our colors names that a human can understand.
+Instead of scratching our head about this one every time, we can use [Veli's colorpedia](http://veli.ee/colorpedia/).
+This way we'll get to give our colors names that a human can understand.
 
 ## Use a CSS reset
 
 Applying a reset stylesheet should be the first step in any app design.
 There are several widely-used reset stylesheets available, but the job of each one is the same.
-It must standardize the differences between different browsers’ default styles and to create a clean slate on which to build our app's design.
+It must standardize the differences between different browsers' default styles and to create a clean slate on which to build our app's design.
 To use a CSS reset, all we need to do is include the reset stylesheet file into our web app before applying any other styles.
 
 ## Use a CSS pre-processor
 
 Part of the reason that CSS can be difficult to work with is that it lacks many of the standard tools available in every programming language.
-For example, there’s no way in CSS to specify variables.
+For example, there's no way in CSS to specify variables.
 It´s recommended to replace CSS with a [CSS pre-processor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor), such as Sass.
 Pre-processors extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets.
 These features make the CSS structure more readable and easier to maintain.
 
-## Use CSS post-processor
+## Use a CSS post-processor
 
 If feel that there is something wrong while the CSS codes get loaded over the browsers and it seems to be lagging in speed, then there is high time we tried to compress the size of the CSS files.
 A lot of elements, including line breaks, white spaces, and even redundant CSS styles might be interfering with our CSS file and delaying our app from loading quicker.
@@ -411,7 +411,7 @@ Some of the tools that we can use to get rid of these issues include [PostCSS](h
 ## Use a CSS framework
 
 A CSS framework, such as [Bootstrap](https://ng-bootstrap.github.io/), collects together frequently applied styles into a single stylesheet and implements all of the above best practices for us so that we can spend more time thinking about how to improve the website, rather than on making the CSS more manageable.
-As with any tools, CSS frameworks aren’t always right for every job, and they can have bad side effects when used incorrectly.
+As with any tools, CSS frameworks aren't always right for every job, and they can have bad side effects when used incorrectly.
 But, learning and using a framework saves time and leads to better results in most cases.
 
 ## Use a design system
@@ -435,10 +435,10 @@ The support is good and it allows us to create a more flexible and reusable UI, 
 ## Write descriptive media queries
 
 Media queries are the most important part of responsive website development.
-We can define styles for different resolutions and change layout according to user’s device.
-Due to the many rules’ combination, media query can become complex pretty easily.
-To make media queries more developer-friendly we can assign it’s rules to a variable.
-In Sass it’s possible to use string as normal CSS code using the interpolation braces.
+We can define styles for different resolutions and change layout according to user's device.
+Due to the many rules' combination, media query can become complex pretty easily.
+To make media queries more developer-friendly we can assign it's rules to a variable.
+In Sass it's possible to use string as normal CSS code using the interpolation braces.
 
 ```scss
 $medium: 768px;
@@ -453,8 +453,8 @@ $screen-medium-wide: 'only screen and (min-width: #{$medium}) and (max-device-as
 
 ## Understand Block vs Inline Elements
 
-Block elements are elements that naturally clear each line after they’re declared, spanning the whole width of the available space.
-Inline elements take only as much space as they need, and don’t force a new line after they’re used.
+Block elements are elements that naturally clear each line after they're declared, spanning the whole width of the available space.
+Inline elements take only as much space as they need, and don't force a new line after they're used.
 Here are the lists of elements that are either inline or block:
 
 ```html
@@ -471,7 +471,7 @@ div, h1…h6, p, ul, li, table, blockquote, pre, form
 
 It is recommended to distinguish which styles are meant for any or a set of HTML selectors vs. those meant for something specific.
 We should keep all global styles in a separate file (especially when using a preprocessor).
-Modern front-end frameworks are the building blocks of our applications’ UI.
+Modern front-end frameworks are the building blocks of our applications' UI.
 As visual elements, styling them is a big part of how applications meet our users, and composes the way our brand and product looks and feels.
 These frameworks suggest appending specific styles to each component using separate files.
 
@@ -479,7 +479,7 @@ These frameworks suggest appending specific styles to each component using separ
 
 The browsers are super-fast, however, on complex websites, there are some painting issues related to setting `box-shadow`, `border-radius`, `position`, `filter`, and even `width` and `height`, especially for complex animations or repetitive changes.
 These require the browser to do complex re-calculations and repaint the view again down to every nested child.
-The “will-change” is used as a performance boost to tell the browser about how a property is expected to change.
+The "will-change" is used as a performance boost to tell the browser about how a property is expected to change.
 However, its use is a last resort.
 
 ## Style to be responsive or at least adaptive
@@ -511,8 +511,8 @@ Then add CSS and try the best before changing the HTML for styling reasons.
 ## Create the HTML first
 
 Many designers create their CSS at the same time they create the HTML.
-It seems logical to create both at the same time, but actually we’ll save even more time if we create the entire HTML mockup first.
-The reasoning behind this method is that we know all the elements of our site layout, but we don’t know what CSS we’ll need with our design.
+It seems logical to create both at the same time, but actually we'll save even more time if we create the entire HTML mockup first.
+The reasoning behind this method is that we know all the elements of our site layout, but we don't know what CSS we'll need with our design.
 Creating the HTML layout first allows us to visualize the entire page as a whole and allows us to think of our CSS in a more holistic, top-down manner.
 
 ## Combine elements with same styles
@@ -551,7 +551,7 @@ We can create our own JavaScript CSS loader or we can [defer non-critical CSS](h
 
 CSS files can easily gain redundant KBs over time.
 Unused CSS just adds dead weight to our applications and contributes to the growth of web page size, so we want to make sure that we have as little excess code as possible.
-Aside from slowing down our website’s overall performance, excess CSS can cause headaches for developers.
+Aside from slowing down our website's overall performance, excess CSS can cause headaches for developers.
 Clean and orderly stylesheets are easier to maintain than disorderly ones.
 We can [remove unused CSS](https://www.keycdn.com/blog/remove-unused-css) manually or with tools.
 The most popular tools are [PurifyCSS](https://www.npmjs.com/package/purify-css), [PurgeCSS](https://www.npmjs.com/package/purgecss) and [UnCSS](https://www.npmjs.com/package/uncss).
