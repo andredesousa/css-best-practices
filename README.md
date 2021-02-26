@@ -16,7 +16,7 @@ These tips are based on CSS documentation, books, articles and professional expe
 8. [Avoid undoing styles](#avoid-undoing-styles)
 9. [Avoid magic numbers](#avoid-magic-numbers)
 10. [Avoid qualified selectors](#avoid-qualified-selectors)
-11. [Avoid hard-coded values](#avoid-hard-coded-values])
+11. [Avoid hard-coded values](#avoid-hard-coded-values)
 12. [Avoid brute forcing](#avoid-brute-forcing)
 13. [Avoid dangerous selectors](#avoid-dangerous-selectors)
 14. [Avoid extra selectors](#avoid-extra-selectors)
