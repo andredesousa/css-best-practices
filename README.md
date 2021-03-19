@@ -33,7 +33,7 @@ These tips are based on CSS documentation, books, articles and professional expe
 25. [Avoid too many font files](#avoid-too-many-font-files)
 26. [Use multiple classes](#use-multiple-classes)
 27. [Use nested declarations](#use-nested-declarations)
-28. [Use "Margin: 0 auto" to center layouts](#use-"margin:-0-auto"-to-center-layouts)
+28. [Use "Margin: 0 auto" to center layouts](#use-margin-0-auto-to-center-layouts)
 29. [Use Hex Code instead of Name Color](#use-hex-code-instead-of-name-color)
 30. [Use a CSS reset](#use-a-css-reset)
 31. [Use a CSS pre-processor](#use-a-css-pre-processor)
