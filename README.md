@@ -563,3 +563,14 @@ We can use a post-processor or make it a simple build process step of our site d
 Smaller CSS file will load faster and start to be processed sooner.
 We can use tools such as [cssnano](https://www.npmjs.com/package/cssnano) or [clean-css](https://www.npmjs.com/package/clean-css). It can also be integrated with a [webpack plugin](https://webpack.js.org/plugins/css-minimizer-webpack-plugin/).
 It uses cssnano to optimize and minify our CSS.
+
+## Bibliography
+
+- [7 Sass techniques to help you write better code](https://www.devbridge.com/articles/7-sass-techniques-to-help-you-write-better-code/)
+- [8 simple rules for a robust, scalable CSS architecture](https://github.com/oieduardorabelo/css-architecture)
+- [10 Time-Saving CSS Tips When Using Sass](https://www.telerik.com/blogs/10-time-saving-css-tips-i-learned-the-hard-way-when-using-sass)
+- [10 Best Practices for Improving Your CSS](https://betterprogramming.pub/10-best-practices-for-improving-your-css-84c69aac66e)
+- [50 CSS Best Practices & Guidelines to Write Better CSS](https://beforesemicolon.medium.com/50-css-best-practices-guidelines-to-write-better-css-c60807e9eee2)
+- [Code Smells in CSS](https://css-tricks.com/code-smells-css/)
+- [CSS Code Smells](https://css-tricks.com/css-code-smells/)
+- [The complete best practices for minifying CSS](https://blog.logrocket.com/the-complete-best-practices-for-minifying-css/)
